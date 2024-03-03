@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"002_remote\startup_stm32f103xb.o"
+"002_remote\ps2.o"
+"002_remote\main.o"
+"002_remote\gpio.o"
+"002_remote\tim.o"
+"002_remote\stm32f1xx_it.o"
+"002_remote\stm32f1xx_hal_msp.o"
+"002_remote\stm32f1xx_hal_gpio_ex.o"
+"002_remote\stm32f1xx_hal_tim.o"
+"002_remote\stm32f1xx_hal_tim_ex.o"
+"002_remote\stm32f1xx_hal.o"
+"002_remote\stm32f1xx_hal_rcc.o"
+"002_remote\stm32f1xx_hal_rcc_ex.o"
+"002_remote\stm32f1xx_hal_gpio.o"
+"002_remote\stm32f1xx_hal_dma.o"
+"002_remote\stm32f1xx_hal_cortex.o"
+"002_remote\stm32f1xx_hal_pwr.o"
+"002_remote\stm32f1xx_hal_flash.o"
+"002_remote\stm32f1xx_hal_flash_ex.o"
+"002_remote\stm32f1xx_hal_exti.o"
+"002_remote\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "002_remote\002_remote.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "002_remote.map" -o 002_remote\002_remote.axf

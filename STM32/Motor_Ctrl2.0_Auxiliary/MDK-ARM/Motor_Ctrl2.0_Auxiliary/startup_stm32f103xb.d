@@ -1,0 +1,1 @@
+motor_ctrl2.0_auxiliary\startup_stm32f103xb.o: startup_stm32f103xb.s

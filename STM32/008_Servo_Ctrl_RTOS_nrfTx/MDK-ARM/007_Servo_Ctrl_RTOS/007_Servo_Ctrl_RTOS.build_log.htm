@@ -1,0 +1,71 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.28.0.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: ds lijianxia2002, f', LIC=9WSKC-7QJZR-8TI3P-MAV5W-X9RM4-7JGSK
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.28.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.28.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      CMSIS_AGDI.dll V1.31.18.0
+Dialog DLL:      TCM.DLL V1.36.2.0
+ 
+<h2>Project:</h2>
+C:\Users\lijianxia2002\Desktop\23.12-24.2\STM32\008_Servo_Ctrl_RTOS_nrfTx\MDK-ARM\007_Servo_Ctrl_RTOS.uvprojx
+Project File Date:  12/18/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target '007_Servo_Ctrl_RTOS'
+compiling freertos.c...
+../Core/Inc/servo.h(8): warning:  #1295-D: Deprecated declaration Servo_calc - give arg types
+  void Servo_calc();
+../Core/Inc/servo.h(9): warning:  #1295-D: Deprecated declaration Servo_data_rec - give arg types
+  void Servo_data_rec();
+../Core/Inc/servo.h(10): warning:  #1295-D: Deprecated declaration Servo_init - give arg types
+  void Servo_init();
+../Core/Src/freertos.c(212): warning:  #177-D: variable "delta_pitch"  was declared but never referenced
+  		static float delta_pitch,last_pitch;
+../Core/Src/freertos.c(212): warning:  #177-D: variable "last_pitch"  was declared but never referenced
+  		static float delta_pitch,last_pitch;
+../Core/Src/freertos.c: 5 warnings, 0 errors
+linking...
+Program Size: Code=19396 RO-data=624 RW-data=204 ZI-data=5404  
+FromELF: creating hex file...
+"007_Servo_Ctrl_RTOS\007_Servo_Ctrl_RTOS.axf" - 0 Error(s), 5 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.5.1.pack
+                ARM.CMSIS.5.5.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.2.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.3.0.pack
+                Keil.STM32F1xx_DFP.2.3.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_007_Servo_Ctrl_RTOS
+  C:\Users\lijianxia2002\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include
+  C:\Users\lijianxia2002\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.2.0
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>
